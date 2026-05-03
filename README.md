@@ -8,7 +8,7 @@ This compiler is currently in active development as part of a 15-week independen
 
 ## Architecture
 
-The compiler is written in strictly standard C99, focusing on high-performance execution and precise memory management. It currently implements the entire Front-End of the compilation pipeline:
+The compiler is written in strictly standard C99, with a focus on high-performance execution and precise memory management. It currently implements the entire Front-End of the compilation pipeline:
 
 * **Lexical Analysis (Scanner/Lexer):** * Implements a custom dynamic array (`TokenList`) to manage memory safely.
   * Processes raw text into a categorized token stream.
