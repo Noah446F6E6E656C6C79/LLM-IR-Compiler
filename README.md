@@ -2,7 +2,7 @@
 
 A custom programming language and compiler built entirely from scratch in pure C. 
 
-LLM-IR (Large Language Model - Intermediate Representation) is designed with a specific architectural philosophy: **to optimize and facilitate code generation by Large Language Models, rather than reasoning about existing code.** By enforcing strict syntactic rules—such as requiring space separation for all tokens and utilizing highly verbose keywords—the language eliminates the need for complex regular expressions, making it highly predictable for AI generation.
+LLM-IR (Large Language Model - Intermediate Representation) is designed with a specific architectural philosophy: **to optimize and facilitate code generation by Large Language Models, rather than reasoning about existing code.** By enforcing strict syntactic rules like requiring space separation for all tokens and utilizing highly verbose keywords, the language eliminates the need for complex regular expressions, making it highly predictable for AI generation.
 
 This compiler is currently in active development as part of a 15-week independent study project for the Spring 2026 semester within the Towson University Computer Science department.
 
