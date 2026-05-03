@@ -1,4 +1,60 @@
+# ==========================================
+# C/C++ Compiled Artifacts
+# ==========================================
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+
+# ==========================================
+# CMake Build Directories & Files
+# ==========================================
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+# JetBrains (CLion)
 .idea/
 cmake-build-debug/
-CMakeLists.txt
-Makefile
+cmake-build-release/
+
+# VS Code (Just in case you switch later)
+.vscode/
+
+# Vim/Emacs temporary files
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# macOS (Just in case someone else clones your repo)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# Project Specific (Optional)
+# ==========================================
+# If you eventually generate C files from your compiler, 
+# you might want to ignore them so they don't get committed!
+# output.c

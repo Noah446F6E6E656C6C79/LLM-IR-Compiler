@@ -51,7 +51,7 @@ TokenList lex(char* source_code) {
     init_token_list(&list);
 
     //break string by spaces, tabs, and newlines
-    char* word = strtok(source_code, " \t\n");
+    char* word = strtok(source_code, " \t\n\r");
     while (word != NULL) {
         if (is_keyword(word)) {
             add_token(&list, TOKEN_KEYWORD, word);
